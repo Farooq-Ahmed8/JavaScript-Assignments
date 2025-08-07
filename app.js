@@ -1,3 +1,6 @@
+//                            Fisrt Assignment  JavaScript Basic
+
+
 // Q 01:- Display an Alert\ Create a simple web page that shows an alert box with a greeting message when
 //        the page loads.\ Topics: Alerts?
 
@@ -59,3 +62,31 @@
 // let let = "xyz";                      // let ak javascript ka (reserved key word) hai use nhi kr sakte
 // let user name = "raheel";             // variable k nam mai (space) use nhi kr sakte
 // let @number = 12345';                 // varible k starting mai (@) use nhi kr sakte
+
+
+//                            Second Assignment working Math and Conditions
+
+// Q 01:- Simple Math Operations\ Create a calculator web page that can do addition, subtraction,
+//        multiplication, and division with two numbers using familiar operators.\
+//        Topics: Math Expressions: familiar operators?
+
+function calculate(operation) {
+            let num1 = parseFloat(document.getElementById("num1").value);
+            let num2 = parseFloat(document.getElementById("num2").value);
+            let result;
+
+            if (operation === '+') {
+                result = num1 + num2;
+            } else if (operation === '-') {
+                result = num1 - num2;
+            } else if (operation === '*') {
+                result = num1 * num2;
+            } else if (operation === '/') {
+                if (num2 !== 0) {
+                    result = num1 / num2;
+                } else {
+                    result = "not division";
+                }
+            }
+              document.getElementById("output").innerText = "Result:" + result;
+        }
