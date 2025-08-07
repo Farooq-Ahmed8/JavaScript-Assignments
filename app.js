@@ -70,23 +70,42 @@
 //        multiplication, and division with two numbers using familiar operators.\
 //        Topics: Math Expressions: familiar operators?
 
-function calculate(operation) {
-            let num1 = parseFloat(document.getElementById("num1").value);
-            let num2 = parseFloat(document.getElementById("num2").value);
-            let result;
+// function calculate(operation) {
+//             let num1 = parseFloat(document.getElementById("num1").value);
+//             let num2 = parseFloat(document.getElementById("num2").value);
+//             let result;
 
-            if (operation === '+') {
-                result = num1 + num2;
-            } else if (operation === '-') {
-                result = num1 - num2;
-            } else if (operation === '*') {
-                result = num1 * num2;
-            } else if (operation === '/') {
-                if (num2 !== 0) {
-                    result = num1 / num2;
-                } else {
-                    result = "not division";
-                }
-            }
-              document.getElementById("output").innerText = "Result:" + result;
-        }
+//             if (operation === '+') {
+//                 result = num1 + num2;
+//             } else if (operation === '-') {
+//                 result = num1 - num2;
+//             } else if (operation === '*') {
+//                 result = num1 * num2;
+//             } else if (operation === '/') {
+//                 if (num2 !== 0) {
+//                     result = num1 / num2;
+//                 } else {
+//                     result = "not division";
+//                 }
+//             }
+//               document.getElementById("output").innerText = "Result:" + result;
+//         }
+
+// Q 02:- Advanced Math Operators\ Add modulus (%) and increment/decrement operators to the calculator.
+//        Try pre- and post-increment. Display the result on the page.\ Topics: Math Expressions:
+//        unfamiliar operators?
+
+// Modules Operator (%)
+
+// let result = 5 % 2;
+// console.log(result);   1
+
+// Pre-increment Operator (++)
+
+// let x = 5;
+// let pre = ++x;
+// console.log(pre);     // pre pehle 6 hoga
+
+// let x = 5;
+// let post = x++;
+// console.log(post);      // post bad mai 6 hoga
