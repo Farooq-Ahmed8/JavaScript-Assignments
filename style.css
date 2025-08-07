@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50vw;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #ffa07a;
+}
+input{
+    width: 22.5vw;
+    height: 8vh;
+    border-radius: 5px;
+    border: none;
+    font: 500 1.2rem Verdana;
+    padding: 9px;
+}
+button{
+    width: 11vw;
+    height: 7vh;
+    border: none;
+    cursor: pointer;
+    font: 400 1.1rem Verdana;
+    border-radius: 5px;
+    background-color: #75a5a7;
+}
+#output{
+    width: 45vw;
+    height: 21vh;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font: 500 1.2rem Verdana;
+    
+}
