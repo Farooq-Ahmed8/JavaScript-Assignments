@@ -109,3 +109,54 @@
 // let x = 5;
 // let post = x++;
 // console.log(post);      // post bad mai 6 hoga
+
+
+// Q 03:- Operator Precedence\ Write 3 expressions that use multiple operators. Add parentheses
+//        to show how ambiguity is resolved.\ Topics: Math Expressions: eliminating ambiguity?
+
+//       Multiplication and Addition
+
+// let result = 5 + 3 * 2;      //  javaScript pehle multiplication krega
+// console.log(result);         //  final result (11)
+
+// let result = 5 + (3 * 2)
+// console.log(result);         //  result:- (11)
+
+//     Subtration and Addition
+
+// let result = 10 - 4 + 2;    // result (8)
+// console.log(result);
+
+// let result = 20 / 5 + 3;    //  javaScript pehle division krega
+// console.log(result);        //  final result (7)
+
+
+//  Q 04:- Prompt and Conditional Logic\ Ask the user for their age using a prompt. Show a different
+//         alert based on the user's age using if , else if , and else .\ Topics: Prompts, if 
+//         statements, Comparison operators, if...else statements, else if statements?
+
+// let age = prompt("Enter your age");
+
+// if(age >= 15 && age < 18){
+//     alert("You are UnAdult");
+// }else if(age >= 20 && 18 <= 25){
+//     alert("Your are Adult");
+// }else if(age >= 25 && 18 <= 40){
+//     alert("Your are old man");
+// }else{}
+
+
+//  Q 05:- Nested Conditions\ Create a script that checks the temperature. If it’s below 10, 
+//         print “Too cold”, if between 10–25, print “Just right”, and if above 25, print “Too hot”.
+//         Add another layer: if temperature is below 0, print “Freezing”.\ Topics: Testing
+//         sets of conditions, if statements nested?
+
+let temperature = prompt("Enter the temperature");
+
+if(temperature >= 10 && temperature <=  15){
+    alert("Very Cold")
+}else if( temperature >= 16 && temperature <= 25){
+    alert("temperature is normal")
+}else{
+    alert("Very hot")
+}
