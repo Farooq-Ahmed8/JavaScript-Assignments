@@ -151,12 +151,161 @@
 //         Add another layer: if temperature is below 0, print “Freezing”.\ Topics: Testing
 //         sets of conditions, if statements nested?
 
-let temperature = prompt("Enter the temperature");
+// let temperature = prompt("Enter the temperature");
 
-if(temperature >= 10 && temperature <=  15){
-    alert("Very Cold")
-}else if( temperature >= 16 && temperature <= 25){
-    alert("temperature is normal")
-}else{
-    alert("Very hot")
-}
+// if(temperature >= 10 && temperature <=  15){
+//     alert("Very Cold")
+// }else if( temperature >= 16 && temperature <= 25){
+//     alert("temperature is normal")
+// }else{
+//     alert("Very hot")
+// }
+
+
+//             Third Assignment Arrays and Loops
+
+// Q 01:- Using Arrays\ Create an array of 5 fruits and display them using a loop.\ Topics:
+//        Arrays, for loops?
+
+// let fruits = ["Apple", "Mango", "Banana", "Olive", "Graphs"];
+
+// for(let i = 0; i < fruits.length; i++){
+//     console.log(fruits[i]);   
+// }
+
+// Q 02:- Modifying Arrays\ Add 2 fruits to the array, then remove 1. Display the final array
+//        using a loop.\ Topics: Arrays: adding and removing elements?
+
+// let fruits = ["Apple", "Banana", "Mango", "Graphs", "Orange"];
+
+// fruits.splice(1, 1, "WaterMaloon", "PineApple");
+
+// for(let i = 0; i < fruits.length; i++){
+
+//     console.log(fruits[i]);
+// }
+
+// Q 03:- Insert, Remove, Slice\ Use splice() to insert a fruit at index 2, remove the third
+//        fruit, and slice the array to get the first 3 fruits. Print all operations.\ Topics:
+//        Arrays: removing, inserting, and extracting elements?
+
+// let fruits = ["Appple", "Banana", "Mango", "Graphs", "Olive"];
+// console.log(fruits);
+
+// fruits.splice(2, 0, "PineApple");
+// console.log(fruits);
+
+// fruits.splice(2, 1);
+// console.log(fruits);
+
+// let newFruits = fruits.slice(0, 3);
+// console.log(newFruits);
+
+
+// Q 04:- Loop Control\ Write a script that loops through an array of numbers. Break the loop
+//        when a number greater than 50 is found. Print whether such a number exists.\ Topics:
+//        for loops: flags, Booleans, array length, and breaks?
+ 
+// let numbers = [22, 15, 25, 45, 17, 19,77];
+// let check = false;
+// for(let i = 0; i < numbers.length; i++){
+//     if(numbers[i] > 50){
+//         check = true;
+//         break;
+        
+//     }
+// }
+// if(check){
+//     console.log("Number is availble greater than 50");
+// }else{
+//     console.log("Number is not availble greater than 50");
+    
+// }
+
+
+// Q 05:- Nested Loops\ Create a multiplication table (1 to 10) using nested loops. Display
+//        results in the console or on the web page.\ Topics: for loops nested?
+
+// for(let i = 1; i <= 10; i++){
+//     for(let j = 1; j <= 10; j++){
+//         console.log(i + " X " + j + " = " + (i * j));
+        
+//     }
+//     console.log("---------");
+    
+// }
+
+
+//         Forth Assignment Strings and Numbers
+
+// Q 01:- Case Conversion and Length\ Ask the user for their full name using a prompt. Show the
+//        length of the name and convert it to upper and lower case.\ Topics: Changing case,
+//        Strings: measuring length?
+
+// let fullName = prompt("Enter Your Name");
+// console.log(fullName);
+
+
+// let userLength = fullName.length;
+// console.log(userLength);
+
+// let upper = fullName.toUpperCase() 
+// console.log(upper);
+
+// let lower = fullName.toLowerCase();
+// console.log(lower);
+
+
+// Q 02:- Finding Characters\ Search for the first space in the user's name. Then extract the
+//        first name and ast name using slice() .\ Topics: Strings: finding segments, finding
+//        a character at a location, extracting parts?
+
+// let fullName = prompt("Enter Your Name");
+// console.log(fullName);
+
+// let space = fullName.indexOf(" ");
+
+// let firstName = fullName.slice(0, space);
+// console.log(firstName);
+
+// let lastName = fullName.slice(space + 1);
+// console.log(lastName);
+
+
+// Q 03:- Replacing Text\ Create a string and replace all instances of “bad” with “good”.\ 
+//        Topics: Strings: replacing characters?
+
+// let str = "This is a bad example. That was a really bad idea. such bad behavior!";
+// console.log(str);
+
+// let replacing = str.replaceAll("bad", "good");
+// console.log(replacing);
+
+
+// Q 04:- Random Number Generator\ Write a script that simulates a dice roll (1 to 6). Run it 10
+//        times and store the result in an array. Print the frequency of each number.\ Topics:
+//        Generating random numbers?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
