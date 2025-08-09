@@ -1,6 +1,5 @@
 //                            Fisrt Assignment  JavaScript Basic
 
-
 // Q 01:- Display an Alert\ Create a simple web page that shows an alert box with a greeting message when
 //        the page loads.\ Topics: Alerts?
 
@@ -286,26 +285,37 @@
 //        times and store the result in an array. Print the frequency of each number.\ Topics:
 //        Generating random numbers?
 
+// let frequency = [0, 0, 0, 0, 0, 0];
+// for (let i = 0; i < 10; i++) {
+//     let diceRoll = Math.floor(Math.random() * 6) + 1;
+
+//     frequency[diceRoll - 1]++;
+
+//     console.log("number " + (i + 1) + " : " + diceRoll);
+// }
+
+// console.log("\n every nuber of frequency:");
+// for (let i = 0; i < 6; i++) {
+//     console.log((i + 1) + " : " + frequency[i] + " Time");
+// }
 
 
+// Q 05:- String to Number Conversion\ Ask the user to enter a number using prompt (as string).
+//        Convert it to integer and decimal, then show it multiplied by 2.\ Topics: Converting
+//        strings to integers and decimals, Rounding numbers?
+
+// let userInput = prompt("Enter the number");
+
+// let intNumber = parseInt(userInput);
+// console.log(intNumber);
 
 
+// let floutNumber = parseFloat(userInput)
 
+// let intResult = intNumber * 2;
+// let floutResult = floutNumber * 2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(intResult);
+// console.log(floutResult);
 
 
